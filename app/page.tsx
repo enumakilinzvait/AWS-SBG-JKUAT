@@ -25,11 +25,11 @@ const features = [
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#F7EFCB] text-[#593820]">
+    <main className="min-h-screen bg-[#F7F5FC] text-[#23213D]">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-6 md:px-10">
-        <a href="#" className="text-xl font-extrabold tracking-tight">
-          AWS SBG <span className="text-[#C87941]">JKUAT.</span>
-        </a>
+       <a href="#" className="text-xl font-extrabold tracking-tight text-[#23213D]">
+  AWS SBG <span className="text-[#FF9900]">JKUAT.</span>
+</a>
 
         <div className="hidden items-center gap-8 text-sm font-medium md:flex">
           <a href="#about" className="transition hover:text-[#C87941]">About</a>
@@ -39,7 +39,7 @@ export default function Home() {
 
         <a
           href="#join"
-          className="rounded-full bg-[#C87941] px-5 py-3 text-sm font-bold text-white transition hover:bg-[#A85D2A]"
+         className="rounded-full bg-[#FF9900] px-5 py-3 text-sm font-bold text-[#23213D] transition hover:bg-[#E68A00]"
         >
           Join the Community ↗
         </a>
@@ -47,14 +47,14 @@ export default function Home() {
 
       <section className="mx-auto grid max-w-7xl items-center gap-12 px-6 pb-24 pt-16 md:grid-cols-2 md:px-10 md:pb-32 md:pt-24">
         <div>
-          <div className="mb-7 inline-flex items-center gap-2 rounded-full border border-[#C87941]/40 bg-[#FFF9E9] px-4 py-2 text-sm font-semibold">
-            <span className="h-2 w-2 rounded-full bg-[#C87941]" />
-            JKUAT STUDENT TECH COMMUNITY
+          <div className="mb-7 inline-flex items-center gap-2 rounded-full border border-[#23213D]/15 bg-white px-4 py-2 text-sm font-semibold text-[#23213D]">
+           <span className="h-2 w-2 rounded-full bg-[#FF9900]" />
+            JKUAT STUDENT TECH COMMUNITY 
           </div>
 
           <h1 className="max-w-2xl text-5xl font-black leading-[1.08] tracking-tight md:text-7xl">
             Think bigger.
-            <span className="mt-2 block text-[#C87941]">Build in the cloud.</span>
+          <span className="mt-2 block text-[#FF9900]">Build in the cloud.</span>
           </h1>
 
           <p className="mt-7 max-w-xl text-lg leading-8 text-[#6B5139]">
@@ -71,29 +71,28 @@ export default function Home() {
             </a>
             <a
               href="#about"
-              className="rounded-full border border-[#C87941]/50 px-7 py-4 font-bold transition hover:bg-[#FFF9E9]"
+             className="rounded-full bg-[#FF9900] px-7 py-4 font-bold text-[#23213D] transition hover:-translate-y-1 hover:bg-[#E68A00]"
             >
               Discover Our Community
             </a>
           </div>
 
-          <p className="mt-8 text-sm text-[#765B40]">
-            LEARN TOGETHER · BUILD TOGETHER · GROW TOGETHER
-          </p>
+         <p className="mt-8 text-sm font-medium tracking-wide text-[#625D73]">
+  LEARN TOGETHER · BUILD TOGETHER · GROW TOGETHER
+</p>
         </div>
 
         <div className="relative">
           <div className="absolute -right-3 -top-3 h-24 w-24 rounded-full bg-[#C87941]/20 blur-2xl" />
-          <div className="relative overflow-hidden rounded-[2rem] border border-[#E5D5A7] bg-[#FFF9E9] p-7 shadow-xl shadow-[#593820]/10 md:p-10">
+         <div className="relative overflow-hidden rounded-[2rem] border border-[#E6E0F0] bg-white p-7 shadow-xl shadow-[#23213D]/10 md:p-10">
             <div className="flex items-center justify-between border-b border-[#E5D5A7] pb-5">
               <span className="text-sm font-bold tracking-wide">THE CLOUD JOURNEY</span>
               <span className="rounded-full bg-[#F7EFCB] px-3 py-1 text-xs font-bold">START HERE</span>
             </div>
 
             <div className="py-8">
-              <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-[#C87941] text-3xl text-white">
-                ☁
-              </div>
+              
+              </div><div className="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-[#23213D] text-3xl text-[#FF9900]">
               <h2 className="text-3xl font-extrabold">Ideas into impact.</h2>
               <p className="mt-3 leading-7 text-[#6B5139]">
                 Every expert starts somewhere. Find your people, learn new
@@ -102,14 +101,14 @@ export default function Home() {
             </div>
 
             <div className="grid grid-cols-2 gap-3">
-              <div className="rounded-2xl bg-[#F7EFCB] p-4">
-                <p className="text-2xl font-black text-[#A85D2A]">01</p>
-                <p className="mt-1 text-sm font-semibold">Learn skills</p>
-              </div>
-              <div className="rounded-2xl bg-[#F7EFCB] p-4">
-                <p className="text-2xl font-black text-[#A85D2A]">02</p>
-                <p className="mt-1 text-sm font-semibold">Build projects</p>
-              </div>
+             <div className="rounded-2xl bg-[#F7F5FC] p-4">
+  <p className="text-2xl font-black text-[#FF9900]">01</p>
+  <p className="mt-1 text-sm font-semibold">Learn skills</p>
+</div>
+              <div className="rounded-2xl bg-[#F7F5FC] p-4">
+  <p className="text-2xl font-black text-[#FF9900]">02</p>
+  <p className="mt-1 text-sm font-semibold">Build projects</p>
+</div>
             </div>
           </div>
         </div>
